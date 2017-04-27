@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFDF3E11EB2309500E8E481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDF3E01EB2309500E8E481 /* main.m */; };
+		FCFDF3E41EB2309500E8E481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDF3E31EB2309500E8E481 /* AppDelegate.m */; };
+		FCFDF3E71EB2309500E8E481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDF3E61EB2309500E8E481 /* ViewController.m */; };
+		FCFDF3EA1EB2309500E8E481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFDF3E81EB2309500E8E481 /* Main.storyboard */; };
+		FCFDF3EC1EB2309500E8E481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFDF3EB1EB2309500E8E481 /* Assets.xcassets */; };
+		FCFDF3EF1EB2309500E8E481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFDF3ED1EB2309500E8E481 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCFDF3DC1EB2309400E8E481 /* 小球游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小球游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFDF3E01EB2309500E8E481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFDF3E21EB2309500E8E481 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFDF3E31EB2309500E8E481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFDF3E51EB2309500E8E481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFDF3E61EB2309500E8E481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFDF3E91EB2309500E8E481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFDF3EB1EB2309500E8E481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFDF3EE1EB2309500E8E481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFDF3F01EB2309500E8E481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFDF3D91EB2309400E8E481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFDF3D31EB2309400E8E481 = {
+			isa = PBXGroup;
+			children = (
+				FCFDF3DE1EB2309400E8E481 /* 小球游戏 */,
+				FCFDF3DD1EB2309400E8E481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFDF3DD1EB2309400E8E481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDF3DC1EB2309400E8E481 /* 小球游戏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFDF3DE1EB2309400E8E481 /* 小球游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDF3E21EB2309500E8E481 /* AppDelegate.h */,
+				FCFDF3E31EB2309500E8E481 /* AppDelegate.m */,
+				FCFDF3E51EB2309500E8E481 /* ViewController.h */,
+				FCFDF3E61EB2309500E8E481 /* ViewController.m */,
+				FCFDF3E81EB2309500E8E481 /* Main.storyboard */,
+				FCFDF3EB1EB2309500E8E481 /* Assets.xcassets */,
+				FCFDF3ED1EB2309500E8E481 /* LaunchScreen.storyboard */,
+				FCFDF3F01EB2309500E8E481 /* Info.plist */,
+				FCFDF3DF1EB2309500E8E481 /* Supporting Files */,
+			);
+			path = "小球游戏";
+			sourceTree = "<group>";
+		};
+		FCFDF3DF1EB2309500E8E481 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDF3E01EB2309500E8E481 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFDF3DB1EB2309400E8E481 /* 小球游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFDF3F31EB2309500E8E481 /* Build configuration list for PBXNativeTarget "小球游戏" */;
+			buildPhases = (
+				FCFDF3D81EB2309400E8E481 /* Sources */,
+				FCFDF3D91EB2309400E8E481 /* Frameworks */,
+				FCFDF3DA1EB2309400E8E481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "小球游戏";
+			productName = "小球游戏";
+			productReference = FCFDF3DC1EB2309400E8E481 /* 小球游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFDF3D41EB2309400E8E481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NIAN;
+				TargetAttributes = {
+					FCFDF3DB1EB2309400E8E481 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCFDF3D71EB2309400E8E481 /* Build configuration list for PBXProject "小球游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFDF3D31EB2309400E8E481;
+			productRefGroup = FCFDF3DD1EB2309400E8E481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFDF3DB1EB2309400E8E481 /* 小球游戏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFDF3DA1EB2309400E8E481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDF3EF1EB2309500E8E481 /* LaunchScreen.storyboard in Resources */,
+				FCFDF3EC1EB2309500E8E481 /* Assets.xcassets in Resources */,
+				FCFDF3EA1EB2309500E8E481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFDF3D81EB2309400E8E481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDF3E71EB2309500E8E481 /* ViewController.m in Sources */,
+				FCFDF3E41EB2309500E8E481 /* AppDelegate.m in Sources */,
+				FCFDF3E11EB2309500E8E481 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCFDF3E81EB2309500E8E481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFDF3E91EB2309500E8E481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFDF3ED1EB2309500E8E481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFDF3EE1EB2309500E8E481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFDF3F11EB2309500E8E481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCFDF3F21EB2309500E8E481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFDF3F41EB2309500E8E481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "小球游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCFDF3F51EB2309500E8E481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "小球游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itheima.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFDF3D71EB2309400E8E481 /* Build configuration list for PBXProject "小球游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDF3F11EB2309500E8E481 /* Debug */,
+				FCFDF3F21EB2309500E8E481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFDF3F31EB2309500E8E481 /* Build configuration list for PBXNativeTarget "小球游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDF3F41EB2309500E8E481 /* Debug */,
+				FCFDF3F51EB2309500E8E481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFDF3D41EB2309400E8E481 /* Project object */;
+}
